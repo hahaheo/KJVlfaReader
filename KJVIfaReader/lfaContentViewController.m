@@ -27,7 +27,6 @@
 {
     [super viewDidLoad];
     _NavigationTitle.titleLabel.font = [UIFont boldSystemFontOfSize:16];
-
     [_NavigationTitle addTarget:self action:@selector(bibleSelectorClick:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
 
     bool checkupdate_1051 = [[NSUserDefaults standardUserDefaults] boolForKey:@"updated_1051"];
